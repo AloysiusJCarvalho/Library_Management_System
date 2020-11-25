@@ -1,0 +1,300 @@
+html
+{
+    scroll-behavior:smooth;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding:0;
+    font-family: ;
+    background-image: url(images/library_background.png);
+    background-repeat:round;
+}
+
+nav
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 54px;
+    background:#000;
+    opacity: 0.6;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+}
+
+ul
+{
+    padding:0;
+    margin:0;
+    list-style: none;
+    display: inline-block;
+}
+
+li
+{
+    float: left;
+    
+}
+
+a
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#setion1
+{
+    font-family: 'Montserrat', sans-serif;
+    height:auto;
+    background-image:url(images/library_background.png);
+    background-repeat: repeat-y;
+    display: inline-block;
+    width:100%;
+    
+    
+}
+
+#setion2
+{
+    font-family: 'Montserrat', sans-serif;
+    height:auto;
+     background-image:url(images/library_background.png);
+    background-repeat: repeat-y;
+    display: inline-block;
+    width:100%;
+    
+    
+}
+
+#setion3
+{
+    font-family: 'Montserrat', sans-serif;
+    height:auto;
+    background-image: url(images/library_background.png);
+    background-repeat: repeat-y;
+    display: inline-block;
+    width:100%;
+    
+    
+}
+
+#setion4
+{
+    font-family: 'Montserrat', sans-serif;
+    height:auto;
+     background-image:url(images/library_background.png);
+    background-repeat: repeat-y;
+    display: inline-block;
+    width:100%;
+    
+    
+}
+
+#setion5
+{
+    font-family: 'Montserrat', sans-serif;
+    height:auto;
+    background-image:url(images/library_background.png);
+    background-repeat: repeat-y;
+    display: inline-block;
+    width:100%;
+    
+    
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 100px;
+    text-align: center;
+    padding:0;
+    
+}
+
+.nav-container
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu
+{
+    
+    width: 522%;
+}
+
+
+.menu>.menu-content
+{
+    font-family: 'Montserrat', sans-serif;
+    width:0px;
+    height:auto;
+    bottom: -17px;
+    float:right;
+    font-size: 20x;
+    position:relative;
+}
+
+.menu>.menu-content>a
+
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    width:600%;
+}
+
+.arrow-up
+{
+    width: 0;
+    height: 0;
+    position:absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+    right:0;
+    top: ;
+    
+    
+}
+
+.gotobtn
+{
+    
+    
+    position: fixed;
+    width:100px;
+    height:100px;
+    bottom:-70px;
+    right: 10px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.modal-bg
+{
+    
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active
+{
+    
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal
+{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+    background-color: white;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:column; 
+    
+}
+
+.logout-img
+{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: 20px;
+    align-items: center;
+    border-radius: 50%;
+    top:10%;
+    left:calc(50% - 50px);
+    
+}
+
+.modal button
+{
+    left:618px;
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.modal-btn
+{
+background: white;
+color: black;
+border-radius: 25px;
+cursor: pointer;
+    
+}
+
+.radius
+{
+    border-radius: 25px;
+    height: 25px;
+    width: 250px;
+    text-align: center;
+    
+}
+
+.form-control
+{
+    
+    width:600px ;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color:black;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background:transparent;
+}
+
+#form-control submit
+{
+    background-color: #ff5722;
+    cursor: pointer;
+}
+
+.contact-box
+{
+    position: relative;
+    bottom: 117px;
+}
+
+.modal-close
+{
+    
+    position: absolute;
+    top:10px ;
+    right:10px ;
+    font-weight: bold;
+    cursor: pointer;
+}
